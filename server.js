@@ -7,4 +7,4 @@ dbConnect()
 const server = app.listen(process.env.PORT,()=>{
     console.log(`Server is running on PORT no.:- ${process.env.PORT} `)
 })
-server.setTimeout(29000);
+// server.setTimeout(29000);
